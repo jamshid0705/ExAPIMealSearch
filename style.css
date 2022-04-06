@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat&family=Mukta:wght@700&family=Poppins:wght@700&family=Roboto:wght@300;500&display=swap');
+body{
+  font-family: Mukta;
+  position: relative;
+  z-index: -1;
+}
+.h1{
+  font-size: 40px;
+}
+.main{
+  margin:0 auto;
+  width: 50vw;
+  position: relative;
+  text-align: center;
+}
+input{
+  width: 40vw;
+  height: 40px;
+  border: none;
+  border: 2px solid red;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.btn{
+  font-size: 17px;
+  height: 46px;
+  border: none;
+  border: 2px solid red;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: red;
+  color: white;
+  position: absolute;
+}
+.div{
+ width: 25vw;
+ height: 60vh;
+ margin: 50px;
+ float: left;
+ position: relative;
+ border-radius: 20px;
+ box-shadow: 2px 3px 10px 5px rgb(110, 105, 105) ;
+ 
+}
+.tex{
+  width: 25vw;
+ height: 60vh;
+ border: 1px soldi;
+ position: relative;
+ border-radius: 20px;
+ float: left;
+}
+.sorry{
+  color: red;
+}
+::placeholder{
+  color: red;
+  font-size: 17px;
+}
+img{
+  position: absolute;
+  width: 100%;
+  height: 70%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.text{
+  position: absolute;
+  left: 6vw;
+  top: 300px;
+}
+.btn3{
+  position:fixed;
+  opacity: 0;
+}
+.btn1{
+  
+  width: 150px;
+  border: 0;
+  height: 40px;
+  background-color: red;
+  position: absolute;
+  top: 370px;
+  left: 7.5vw;
+  color: white;
+  font-size: 17px;
+  border-radius: 20px;
+}
+.malumot1{
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.malumot{
+  width: 40vw;
+  height: 92vh;
+  background-color: rgb(255, 55, 0);
+  padding: 30px;
+  color: white;
+  text-align: center;
+  border-radius: 20px;
+  position: fixed;
+  top: 0;
+  left: 30vw;
+  z-index: 1;
+  overflow-y: scroll;
+  
+}
+.body1{
+  width: 40vw;
+  height: 92vh;
+ 
+  padding: 30px;
+  color: white;
+  text-align: center;
+  border-radius: 20px;
+  position: fixed;
+  top: 0;
+  left: 30vw;
+  z-index: -1;
+  
+}
+p{
+  scroll-behavior: auto;
+  
+}
+.h2{
+  padding: 6px;
+  background-color: white;
+  width: 130px;
+  color: rgb(255, 55, 0);
+  border-radius: 5px;
+  margin-left: 15rem;
+}
+.btn2{
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  font-family: Mukta;
+  font-size: 25px;
+  position: absolute;
+  right: 30px;
+  background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
